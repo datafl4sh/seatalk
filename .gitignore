@@ -1,0 +1,6 @@
+.DS_Store
+jiffy/
+serial/serial
+translator/common.beam
+translator/seatalk.beam
+translator/seatalkng.beam
