@@ -1,0 +1,37 @@
+/*
+ * This code is from Davide D'Osvaldo thesis
+ */
+
+
+.n{
+  font-size:140%;
+}
+.v{
+	font-size:250%;
+}
+.top{
+	height:25%;
+	border-bottom: solid black 1px;
+}
+.middle{
+	height:25%;
+	border-top: solid black 1px;
+	border-bottom: solid black 1px;
+}
+.bottom{
+	height:25%;
+	border-top: solid black 1px;
+}
+.left{
+	width:33%;
+	border-right: solid black 1px;
+}
+.center{
+	width:33%;
+	border-right: solid black 1px;
+	border-left: solid black 1px;
+}
+.right{
+	width:33%;
+	border-left: solid black 1px;
+}

@@ -1,0 +1,125 @@
+/*
+ * This code is from Davide D'Osvaldo thesis
+ */
+
+
+*{
+	font-family: arial;
+	color: black;
+	font-weight:bold;
+	vertical-align:middle;
+	text-align:center;
+	border-spacing:0;
+	border:none;
+	margin:0;
+	padding:0;
+	text-decoration: none;
+	list-style-type: none;
+}
+html{
+	overflow:hidden;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+}
+@media all and (max-width: 480px){
+	html{
+		font-size:9px;
+	}
+	.name{
+		font-size:12px;
+	}
+	.value{
+		font-size:60px;
+	}
+}
+@media all and (min-width: 480px) and (max-width: 680px){
+	html{
+		font-size:12px;
+	}
+	.name{
+		font-size:14px;
+	}
+	.value{
+		font-size:92px;
+	}
+}
+@media all and (min-width: 680px) and (max-width: 900px){
+	html{
+		font-size:14px;
+	}
+	.name{
+		font-size:19px;
+	}
+	.value{
+		font-size:122px;
+	}
+}
+@media all and (min-width: 900px) and (max-width: 1200px){
+	html{
+		font-size:16px;
+	}
+	.name{
+		font-size:22px;
+	}
+	.value{
+		font-size:155px;
+	}
+}
+@media all and (min-width: 1200px){
+	html{
+		font-size:18px;
+	}
+	.name{
+		font-size:27px;
+	}
+	.value{
+		font-size:200px;
+	}
+}
+@media all and (max-height: 320px){
+	ul li a{
+		font-size:13px;
+	}
+}
+@media all and (min-height: 320px) and (max-height: 400px){
+	ul li a{
+		font-size:14px;
+	}
+}
+@media all and (min-height: 400px) and (max-height: 480px){
+	ul li a{
+		font-size:16px;
+	}
+}
+@media all and (min-height: 480px) and (max-height: 560px){
+	ul li a{
+		font-size:18px;
+	}
+}
+@media all and (min-height: 560px) and (max-height: 640px){
+	ul li a{
+		font-size:22px;
+	}
+}
+@media all and (min-height: 640px) and (max-height: 720px){
+	ul li a{
+		font-size:24px;
+	}
+}
+@media all and (min-height: 720px) and (max-height: 800px){
+	ul li a{
+		font-size:28px;
+	}
+}
+@media all and (min-height: 800px) and (max-height: 960px){
+	ul li a{
+		font-size:32px;
+	}
+}
+@media all and (min-height: 960px){
+	ul li a{
+		font-size:34px;
+	}
+}

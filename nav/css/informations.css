@@ -1,0 +1,15 @@
+/*
+ * This code is from Davide D'Osvaldo thesis
+ */
+
+
+#info{
+	font-size:160%;
+	text-align:center;
+}
+#fullscreen{
+	float: right;
+}
+#lockscreen{
+	float: left;
+}

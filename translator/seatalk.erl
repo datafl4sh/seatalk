@@ -130,7 +130,7 @@ process_seatalk(Ts) ->
                     ok;
                 _ -> ok
              end,
-             %timer:sleep(500), % enable this to use with test data
+             timer:sleep(500), % enable this to use with test data
              process_seatalk(Ts)
     end.
 

@@ -61,7 +61,7 @@ process_input(Ts) ->
             TT = element(2, Dec),
             TU = element(1, TT),
             process_tuples(TU, Ts),
-            %timer:sleep(500), % enable this to use with test data
+            timer:sleep(500), % enable this to use with test data
             process_input(Ts)
     end.
 
